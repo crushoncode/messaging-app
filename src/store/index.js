@@ -1,5 +1,5 @@
-import reducer from './reducers';
 import { createStore } from 'redux';
+import reducer from '../reducers';
 
 const initialState = { tech: 'ganbate!!' };
-const store = createStore(reducer, initialState);
+export const store = createStore(reducer, initialState);
